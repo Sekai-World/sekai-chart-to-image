@@ -1,0 +1,24 @@
+{
+  "name": "sekai-weight-calc",
+  "version": "1.0.0",
+  "description": "1. Run Scores/ScoreDownloader.py to download .sus files\r 2. Run WeightCalculator.py to calculate weights from .sus files",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@insomnia-dev/convert-svg-to-png": "^0.5.7",
+    "@sekai-world/sus-analyzer": "^2.2.4",
+    "axios": "^0.21.1",
+    "bezier-js": "^4.0.3",
+    "chrome-aws-lambda": "^8.0.2",
+    "commander": "^8.3.0",
+    "oslllo-svg2": "^0.2.2",
+    "p-limit": "^4.0.0",
+    "puppeteer": "^8.0.0",
+    "xmlbuilder2": "^2.4.0"
+  }
+}
